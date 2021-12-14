@@ -35,4 +35,6 @@ All files must follow the ```JSON``` convention.
 ## Python scripts
 The included python scripts are an implementation of drawing methods that allow to draw a graph serialized in a JSON file, most compatible with the serialization protocol implemented by the C++ API.  
 
+The utilised drawing method is force-directed drawing.  
+
 
