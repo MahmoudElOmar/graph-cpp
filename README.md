@@ -26,7 +26,13 @@ the ```Graph``` class has similar attirbutes and functions:
 
 ```addVertex()``` adds a vertex to the graph under the condition that it hasn't been added yet.  
 ```removeVertex()``` removes a vertex from the graph assuming that it already exists in the graph.  
-```SerializeJSON()``` serializes the state of this ```Graph``` instance into a JSON file.
-```DeserializeJSON()``` restores the state of the ```Graph``` object from a JSON file.
+```SerializeJSON()``` serializes the state of this ```Graph``` instance into a JSON file.  
+```DeserializeJSON()``` restores the state of the ```Graph``` object from a JSON file.  
+
+All files must follow the ```JSON``` convention.
+
+
+<br></br>
+The 
 
 
