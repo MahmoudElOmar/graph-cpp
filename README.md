@@ -26,11 +26,10 @@ the ```Graph``` class has similar attirbutes and functions:
 
 ```addVertex()``` adds a vertex to the graph under the condition that it hasn't been added yet.  
 ```removeVertex()``` removes a vertex from the graph assuming that it already exists in the graph.  
-```SerializeJSON()``` serializes the state of this ```Graph``` instance into a JSON file.  
-```DeserializeJSON()``` restores the state of the ```Graph``` object from a JSON file.  
+```SerializeJSON(string filePath)``` serializes the state of this ```Graph``` instance into a JSON file at the location designated by ```filePath```.  
+```DeserializeJSON(string filePath)``` restores the state of the ```Graph``` object from a JSON file at the location desginated by ```filePath```.  
 
 All files must follow the ```JSON``` convention.
-
 <br></br>
 ## Python scripts
 The included python scripts are an implementation of drawing methods that allow to draw a graph serialized in a JSON file, most compatible with the serialization protocol implemented by the C++ API.  
